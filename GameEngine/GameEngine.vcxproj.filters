@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{b71722f0-6ade-4fec-8896-6530aa8bce0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Model\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{88ed0ea0-62f2-4c27-8d1e-9eae5a8cb960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{2329d693-8a67-45d6-b1c6-3a968bf8e666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Header Files">
+      <UniqueIdentifier>{a4e01a40-1f95-4caa-8066-d889618ce516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Source Files">
+      <UniqueIdentifier>{bd160f6c-4ef7-43e3-9f7d-074aa16d9810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Header Files">
+      <UniqueIdentifier>{9bcda9e4-eb44-486d-999f-60c4630fb41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Source Files">
+      <UniqueIdentifier>{75780da0-2db0-48d4-8db1-e313e0f1beb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\SDL2-2.0.7\lib\x86\SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Model\Entity.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\EntityManager.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Rect.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\Representation.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Vect.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\MovableEntity.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\SDL_2DRepresentation.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\utility.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\RepresentationManager.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\SDL_2DManager.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command.h">
+      <Filter>Controller\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Controller.h">
+      <Filter>Controller\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\KeyInput.h">
+      <Filter>Controller\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\PlayerController.h">
+      <Filter>Controller\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Model\Entity.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\EntityManager.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Rect.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Vect.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\MovableEntity.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\SDL_2DRepresentation.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\RepresentationManager.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\SDL_2DManager.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller\PlayerController.cpp">
+      <Filter>Controller\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\Representation.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
